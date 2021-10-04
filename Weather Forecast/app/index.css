@@ -1,0 +1,63 @@
+.background-div{
+    background-color: beige;
+    font-size: large;
+    flex-direction: column;
+    align-content: center;
+    font-style: italic;
+}
+.card {
+    margin: 10px 0;
+    width: 250px;
+    padding: 20px;
+    border-radius: 3px;
+    border: black;
+  }
+ 
+  html, body, #app {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  .center-text {
+    text-align: center;
+  }
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 3px;
+    margin: 0 auto;
+    display: block; 
+  }
+
+.input-center{
+    align-content: center;
+}
+.btn-clear {
+  border: none;
+  background: transparent;
+}
+.nav-link {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+.space-between {
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
